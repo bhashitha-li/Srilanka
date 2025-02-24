@@ -1,0 +1,274 @@
+body {
+	font-size: 20px;
+	color: black;
+	font-family: "Verdana";
+	background: url("https://wallpapercave.com/wp/wp4359110.jpg");
+	background-size: cover;
+}
+
+h4 {
+	font-size: 50px;
+	color: antiquewhite;
+	font-family: "Arial";
+	text-align: justify;
+}
+
+table {
+	font-size: 18px;
+	color: azure;
+	font-family: Arial;
+	text-align: center;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	z-index: 10;
+}
+
+.Div4 {
+	border-bottom: 10px solid #9e9e9e;
+	background-color: #fafafa;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+
+.Div4 a {
+	text-decoration: none;
+	color: #424242;
+	position: relative;
+}
+
+.Div4 a::before {
+	content: "";
+	position: absolute;
+	bottom: -14px;
+	left: 50%;
+	width: 100%;
+	height: 2px;
+	background: rgb(32, 30, 30);
+	transform: translate(-50%, -50%) scaleX(0);
+	transition: all 0.2s ease;
+}
+
+.Div4 a:hover::before {
+	transform: translate(-50%, -50%) scaleX(1);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+	display: none;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+	background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@keyframes fade {
+	from {
+		opacity: 0.4;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+.center {
+	display: flex;
+	justify-content: left;
+}
+
+.Bord {
+	border-radius: 20px;
+}
+
+.TBL {
+	display: flex;
+	max-width: 1400px;
+	padding: 20px;
+	margin: auto;
+	gap: 20px;
+}
+
+.tblLeft,
+.tblRight {
+	flex: 1;
+}
+
+.tblLeft {
+	border-radius: 20px;
+	backdrop-filter: blur(5px);
+	font-size: 28px;
+	font-family: "Berlin Sans FB";
+	border: 3px solid black;
+	padding: 20px;
+}
+
+.tblRight{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tblRight img {
+	max-width: 100%;
+	border-radius: 20px;
+/*TABLE ROW 2*/
+}.TBLB {
+	display: flex;
+	max-width: 1400px;
+	padding: 20px;
+	margin: auto;
+	gap: 20px;
+}
+
+.tblLeftB,
+.tblRightB {
+	flex: 1;
+}
+
+.tblLeftB {
+	border-radius: 20px;
+	backdrop-filter: blur(5px);
+	font-size: 28px;
+	font-family: "Berlin Sans FB";
+	border: 3px solid black;
+	padding: 20px;
+}
+
+.tblRightB{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tblRightB img {
+	max-width: 100%;
+	border-radius: 20px;
+
+}
+
+/*TABLE ROW 3*/
+.TBLC {
+	display: flex;
+	max-width: 1400px;
+	padding: 20px;
+	margin: auto;
+	gap: 20px;
+}
+
+.tblLeftC,
+.tblRightC {
+	flex: 1;
+}
+
+.tblLeftC {
+	border-radius: 20px;
+	backdrop-filter: blur(5px);
+	font-size: 28px;
+	font-family: "Berlin Sans FB";
+	border: 3px solid black;
+	padding: 20px;
+}
+
+.tblRightC{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tblRightC img {
+	max-width: 100%;
+	border-radius: 20px;
+
+}
