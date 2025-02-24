@@ -10,7 +10,8 @@ h4 {
 	font-size: 50px;
 	color: antiquewhite;
 	font-family: "Arial";
-	text-align: justify;
+	text-align: center;
+	margin: 40px;
 }
 
 table {
@@ -25,7 +26,10 @@ footer {
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: black;
+
+	background-color: hwb(194 5% 57% / 0.745);
+	backdrop-filter: blur(5px);
+
 	color: white;
 	text-align: center;
 	z-index: 10;
@@ -33,7 +37,8 @@ footer {
 
 .Div4 {
 	border-bottom: 10px solid #9e9e9e;
-	background-color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.685);
+	backdrop-filter: blur(5px);
 	padding: 20px;
 	display: flex;
 	align-items: center;
@@ -43,7 +48,7 @@ footer {
 
 .Div4 a {
 	text-decoration: none;
-	color: #424242;
+	color: white;
 	position: relative;
 }
 
@@ -202,6 +207,7 @@ footer {
 
 .tblRight img {
 	max-width: 100%;
+	height: 100%;
 	border-radius: 20px;
 /*TABLE ROW 2*/
 }.TBLB {
@@ -222,8 +228,10 @@ footer {
 	backdrop-filter: blur(5px);
 	font-size: 28px;
 	font-family: "Berlin Sans FB";
-	border: 3px solid black;
 	padding: 20px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.685);
+
 }
 
 .tblRightB{
@@ -234,6 +242,7 @@ footer {
 
 .tblRightB img {
 	max-width: 100%;
+	height: 100%;
 	border-radius: 20px;
 
 }
@@ -254,11 +263,14 @@ footer {
 
 .tblLeftC {
 	border-radius: 20px;
+	background-color: rgba(0, 0, 0, 0.685);
 	backdrop-filter: blur(5px);
 	font-size: 28px;
+	color: white;
 	font-family: "Berlin Sans FB";
-	border: 3px solid black;
-	padding: 20px;
+	padding: 50px;
+	max-width: 1350px;
+	margin: auto;
 }
 
 .tblRightC{
