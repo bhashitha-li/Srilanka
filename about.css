@@ -1,0 +1,148 @@
+.Div4 {
+    background-color: rgba(0, 0, 0, 0.685);
+	backdrop-filter: blur(5px);
+	padding: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.Div4 a {
+	text-decoration: none;
+	color: white;
+	position: relative;
+	font-size: 25px;
+	font-family: "poppins";
+}
+
+.Div4 a::before {
+	content: "";
+	position: absolute;
+	bottom: -14px;
+	left: 50%;
+	width: 100%;
+	height: 2px;
+	background: #ffffff;
+	transform: translate(-50%, -50%) scaleX(0);
+	transition: all 0.2s ease;
+}
+
+.Div4 a:hover::before {
+	transform: translate(-50%, -50%) scaleX(1);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+/*head*/
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background: url("https://images.unsplash.com/photo-1627895456214-c9e9b1df5149?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+}
+
+
+
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+.about-section, .team-section {
+    background-color: rgba(0, 0, 0, 0.685);
+	backdrop-filter: blur(3px);
+    padding: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.team-member {
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    margin: 10px 0 5px;
+}
+
+.team-member p {
+    margin: 0;
+    color: #ffffff;
+}
+
+.team-member:hover {
+    transform: scale(1.05);
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+    margin: 15% auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #aaa;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer {
+	background-color: hwb(0 100% 0% / 0.745);
+	backdrop-filter: blur(5px);
+
+	color: black;
+	text-align: center;
+	z-index: 10;
+	margin-bottom: -16px;
+	padding: 20px;
+}
