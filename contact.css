@@ -1,0 +1,77 @@
+.Div4 {
+    background-color: rgba(0, 0, 0, 0.685);
+	backdrop-filter: blur(5px);
+	padding: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.Div4 a {
+	text-decoration: none;
+	color: white;
+	position: relative;
+	font-size: 25px;
+	font-family: "poppins";
+}
+
+.Div4 a::before {
+	content: "";
+	position: absolute;
+	bottom: -14px;
+	left: 50%;
+	width: 100%;
+	height: 2px;
+	background: #ffffff;
+	transform: translate(-50%, -50%) scaleX(0);
+	transition: all 0.2s ease;
+}
+
+.Div4 a:hover::before {
+	transform: translate(-50%, -50%) scaleX(1);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+/*headend*/
+/*table*/
+.tblLeft {
+	border-radius: 20px;
+	backdrop-filter: blur(2px);
+	font-size: 28px;
+	font-family: "Berlin Sans FB";
+	padding: 20px;
+}
+
+.TBL {
+	display: flex;
+    align-content: center;
+	max-width: 1400px;
+	padding: 20px;
+	margin: auto;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+}
+/*body*/
+body {
+	font-size: 20px;
+	color: black;
+	font-family: "Verdana";
+	background: url("https://images.unsplash.com/photo-1541394995283-1c41007f098c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+	background-size: cover;
+}
+
+.footer {
+	background-color: hwb(0 100% 0% / 0.745);
+	backdrop-filter: blur(5px);
+	color: black;
+	text-align: center;
+    z-index: 10;
+	margin-bottom: -6px;
+	padding: 20px;
+}
