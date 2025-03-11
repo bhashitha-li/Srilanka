@@ -193,9 +193,8 @@ footer {
 
 .tblLeft {
 	border-radius: 20px;
-	backdrop-filter: blur(1px);
-	background-color: #ffffffaf;
-	color: black;
+	backdrop-filter: blur(4px);
+	color: white;
 	font-size: 25px;
 	font-family: "Berlin Sans FB";
 	padding: 20px;
@@ -227,12 +226,11 @@ footer {
 
 .tblLeftB {
 	border-radius: 20px;
-	backdrop-filter: blur(1px);
+	backdrop-filter: blur(4px);
 	font-size: 25px;
 	font-family: "Berlin Sans FB";
 	padding: 20px;
-	color: black;
-	background-color: #ffffffaf;
+	color: white;
 }
 
 .tblRightB{
@@ -263,10 +261,9 @@ footer {
 
 .tblLeftC {
 	border-radius: 20px;
-	background-color: #ffffffaf;
-	backdrop-filter: blur(1px);
+	backdrop-filter: blur(4px);
 	font-size: 25px;
-	color: black;
+	color: white;
 	font-family: "Berlin Sans FB";
 	padding: 50px;
 	max-width: 1350px;
