@@ -136,6 +136,13 @@ footer {
 	top: 0;
 }
 
+.icons{
+	display: flex;
+	gap: 34px;
+	justify-content: center;
+
+}
+
 /* The dots/bullets/indicators */
 .dot {
 	cursor: pointer;
