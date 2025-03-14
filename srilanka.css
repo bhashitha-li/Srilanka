@@ -193,6 +193,7 @@ footer {
 	gap: 20px;
 }
 
+
 .tblLeft,
 .tblRight {
 	flex: 1;
@@ -393,4 +394,11 @@ p {
   h1 {
     font-size:24px;
   }
+}
+
+
+@media (max-width: 768px) {
+    .TBL , .TBLB, .TBLC {
+        display: block;
+    }
 }
